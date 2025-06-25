@@ -1,0 +1,27 @@
+.dashboard-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.chart-container {
+    width: 90%;
+    height: 65vh;
+    background-color: #f9f9f9;
+    margin: 8.5rem auto 7px auto;
+    padding: 0 10px 20px 10px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid #e4e4e4;
+    flex-grow: 1;
+}
+
+.chart-container h2 {
+    margin: 0;
+    padding: 1rem;
+    color: #082c1b;
+}
+

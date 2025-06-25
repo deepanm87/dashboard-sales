@@ -2,6 +2,7 @@ import supabase from "../supabase-client"
 import { useEffect, useState } from "react"
 import { Chart } from "react-charts"
 import Form from "../components/Form"
+import "./Dashboard.styles.css"
 
 const Dashboard = () => {
     const [metrics, setMetrics] = useState([])
