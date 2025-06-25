@@ -1,0 +1,173 @@
+.landing-header {
+text-align: center;
+font-size: 3.5rem;
+line-height: 1.2;
+margin-bottom: 0.7rem;
+padding: 0.6rem 1rem 0.2rem;
+margin-top: 0;
+color: #082c1b;
+font-weight: 700;
+letter-spacing: -2.5px;
+background: linear-gradient(45deg, #082c1b, #0dc566);
+-webkit-background-clip: text;
+background-clip: text;
+-webkit-text-fill-color: transparent;
+animation: fadeIn 0.8s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.sign-form-container {
+  max-width: 28rem;
+  margin: 0 auto;
+  padding: 1.6rem 2.5rem 1.8rem 2.5rem;
+  border: 1px solid #e4e4e4;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.sign-form-container:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+}
+
+.sign-form-container h2 {
+  font-weight: 600;
+  font-size: 1.75rem;
+  padding-bottom: 1rem;
+  margin: 0;
+  color: #082c1b;
+}
+
+.sign-form-container .form-link {
+  color: #187c49;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  padding-bottom: 1px;
+  border-bottom: 1px solid transparent;
+}
+
+.sign-form-container .form-link:hover {
+  color: #124f33;
+}
+
+.sign-form-container .form-input {
+  width: 100%;
+  margin: 0.5rem 0 1rem 0;
+  padding: 0.8rem 1rem;
+  border: 1.5px solid #e4e4e4;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 400;
+  background-color: white;
+  color: #082c1b;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  box-sizing: border-box; /* Ensures padding is included in width calculation */
+}
+
+.sign-form-container .form-input:focus {
+  outline: none;
+  border-color: #124f33;
+  box-shadow: 0 0 0 3px rgba(18, 79, 51, 0.1);
+}
+
+.sign-form-container fieldset {
+  border: 1.5px solid #e4e4e4;
+  border-radius: 5px;
+  padding: 0.6rem;
+}
+
+.sign-form-container .form-button {
+  width: 100%;
+  margin-top: 1.5rem;
+  padding: 0.8rem 1.2rem;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #124f33;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.sign-form-container .form-button:hover {
+  background-color: #187c49;
+  transform: translateY(-1px);
+}
+
+.sign-form-container .form-button:active {
+  transform: translateY(0);
+}
+
+.sign-form-container .form-button:disabled {
+  background-color: #6c757d;
+  opacity: 0.7;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.sign-form-container .radio-group {
+  display: flex;
+  justify-content: space-between;
+  /* gap: 1rem; */
+}
+
+.sign-form-container .radio-group label {
+  margin-left: 3.5rem;
+  flex: 1;
+  text-align: center; /* optional: center label text */
+}
+
+.sign-form-container input {
+  margin-right: 0.5rem;
+  margin-top: 0;
+}
+
+.sign-form-container .radio-group {
+  display: flex;
+  justify-content: space-between;
+  /* gap: 1rem; */
+}
+
+.sign-form-container .radio-group label {
+  margin-left: 3.5rem;
+  flex: 1;
+  text-align: center; /* optional: center label text */
+  align-items: center;
+}
+
+/* default styling for input radio button when no checked */
+.sign-form-container .radio-group input:not(:checked) {
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  cursor: pointer;
+}
+
+.sign-form-container .radio-group input {
+  margin-right: 0.5rem;
+  margin-top: 0;
+  accent-color: blue;
+  width: 16px;
+  height: 16px;
+}
+

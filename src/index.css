@@ -18,3 +18,8 @@ button, input, textarea, select {
   font-family: inherit;
 }
 
+button {
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}

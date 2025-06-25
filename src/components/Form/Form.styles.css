@@ -1,0 +1,88 @@
+.add-form-container {
+    background-color: #ffffff;
+    width: 90%;
+    border-radius: 5px;
+    margin: 5px auto 20px auto;
+    padding: 8px;
+    border: 1px solid #e4e4e4;
+    flex-shrink: 0;
+}
+
+.add-form-container form {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    margin: 5px;
+}
+
+.add-form-container .error-message {
+    color: red;
+    text-align: center;
+    margin: 0;
+    font-size: 1rem;
+}
+
+label {
+    display: flex;
+    color: #082c1b;
+}
+
+form button {
+    padding: 4px 8px;
+    background-color: #124f33;
+    color: rgb(255, 255, 255);
+    width: 100px;
+    transition: background-color 0.2s ease;
+}
+
+form button:hover {
+    background-color: #187c49;
+}
+
+form button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+}
+
+.amount-input {
+    width: 60px;
+    margin-left: 2px;
+    background-color: #ffffff;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.rep-name-input {
+    margin-left: 5px;
+    color: black;
+    background: #e9ecef;
+    width: 60px;
+}
+
+select {
+    border-radius: 5px;
+    margin-left: 5px;
+    background-color: #ffffff;
+    color: black;
+    border: 1px solid gray;
+}
+
+select:disabled,
+input:disabled {
+    background-color: #e9ecef;
+    cursor: not-allowed;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
